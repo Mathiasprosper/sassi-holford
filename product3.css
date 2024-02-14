@@ -194,6 +194,8 @@
 }
 .carousel-item.active{
     margin-left: 500px;
+    width: 30%;
+    height: 20%;
 }
 .cartPage{
     position: fixed;
