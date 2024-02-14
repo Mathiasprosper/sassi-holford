@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="product35.css">
+    <link rel="stylesheet" href="product1.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
     
@@ -97,49 +100,58 @@
         <div class="dropDown9">
             <li class="cart"><img src="img/Add to cart.png" alt="Cart icon" id="cartIcon"></li>
         </div>
-        <div class="ProductDress">
-            <div class="dressDetails">
-                <div class="backToShop">
-                        <a href="womenswear.html"><p>SHOP / ALL</p></a>
-                </div>
-                <div class="dressName">
-                    AYLESBURY <br>SPARKLE <br>DRESS
-                </div>
-                <div class="dresPrice">
-                    £1,795.00
-                </div>
-                <div class="dressDescription">
-                    <p>The Aylesbury sparkle dress exudes effortless <br>glamour. Crafted from velvet flock with subtle sparkle, <br>it features bell sleeves, a wrap front bodice and a <br>cinched waist. Perfect for formal and evening events, <br>and special occasions.</p>
-                </div>
-                <div class="dressSizes">
-                    <p>36</p>
-                    <p>38</p>
-                    <p>40</p>
-                    <p>42</p>
-                    <p>44</p>
-                    <p>46</p>
-                </div>
-                <div class="dressColor">
-                    <button class="btn-class1"></button>
-                    <button class="btn-class2"></button>
-                </div>
-                <div class="cartBtn">
-                    <button class="btn">ADD TO CART</button>
+        <div class="mainPart">
+            <div class="ProductDress">
+                <div class="dressDetails">
+                    <div class="backToShop">
+                            <a href="womenswear.html"><p>SHOP / ALL</p></a>
+                    </div>
+                    <div class="dressName">
+                        AYLESBURY <br>SPARKLE <br>DRESS
+                    </div>
+                    <div class="dresPrice">
+                        £1,795.00
+                    </div>
+                    <div class="dressDescription">
+                        <p>The Aylesbury sparkle dress exudes effortless <br>glamour. Crafted from velvet flock with subtle sparkle, <br>it features bell sleeves, a wrap front bodice and a <br>cinched waist. Perfect for formal and evening events, <br>and special occasions.</p>
+                    </div>
+                    <div class="dressSizes">
+                        <p>36</p>
+                        <p>38</p>
+                        <p>40</p>
+                        <p>42</p>
+                        <p>44</p>
+                        <p>46</p>
+                    </div>
+                    <div class="dressColor">
+                        <button class="btn-class1"></button>
+                        <button class="btn-class2"></button>
+                    </div>
+                    <div class="cartBtn">
+                        <button class="btn">ADD TO CART</button>
+                    </div>
                 </div>
             </div>
-
             <div class="single-item">
-                <img src="img/016_GHOST-SHOT-SIZE-FOR-WEBSITE-4-918x1366.jpg" alt="">
-                <img src="img/021_GHOST-SHOT-SIZE-FOR-WEBSITE-25-918x1366.jpg" alt="">
-            </div>
-            
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="img/009_GHOST-SHOT-SIZE-FOR-WEBSITE-15-918x1366.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item" data-bs-interval="2000">
+                        <img src="img/26_Untitled-design-21-150x150.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
         </div>
-      
-      
-
-
-
-
         <div class="cartPage">
             <div class="cartText">
                 <h2>Bag item(0)</h2>
@@ -151,71 +163,8 @@
             </div>
         </div>
         <script src="cart.js"></script>
-        <footer>
-            <div class="footer-list-items">
-                <ul>
-                    <h6 class="footer-head">© 2023 SASSI HOLFORD</h6>
-                    <span><a href="#">
-                        <li>TERMS & CONDITIONS</li>
-                        <li>PRIVACY POLICY</li>
-                        <li>WEBSITE DOUBLE BRACE</li>
-                    </a></span>
-                
-                </ul>
-                &nbsp;
-                <ul>
-                    <h6 class="footer-head">ABOUT US</h6>
-                    <span><a href="#">
-                        <li>OUR STORES</li>
-                        <li>STOCKISTS</li>
-                        <li>OUR STORY</li>
-                        <li>RESPONSIBILITY</li>
-                        <li>BLOG</li>
-                    </a></span>
-                </ul>
-                <ul>
-                    <h6 class="footer-head">COLLECTIONS</h6>
-                    <span><a href="#">
-                        <li>2024 HARMONY</li>
-                        <li>2023 LET THERE BE LOVE</li>
-                        <li>2022 LOVE CONQUERS ALL</li>
-                        <li>2021 ASTERIA</li>
-                        <li>SASSI'S SIGNATURES</li>
-                    </a></span>
-                </ul>
-                <ul class="foot">
-                    <h6 class="footer-head">INFO</h6>
-                    <span><a href="#">
-                        <li>SIZE HELP</li>
-                        <li>DELIVERY AND RETURNS</li>
-                        <li>WOMENSWEAR FAQS</li>
-                        <li>STOCKIST PORTAL</li>
-                    </a></span>
-                </ul>
-                <div>
-                    <ul class="socials">
-                        <h6 class="footer-head">FOLLOW SASSI</h6>
-                        <div>
-                            <ul class="media">
-                                <span><a href="#">
-                                    <img src="img/facebook.png" alt="">
-                                    <img src="img/instagram icon.png" alt="">
-                                    <img src="img/pinterest.png" alt="">
-                                    <img src="img/twitter.png" alt="">
-                                    <img src="img/youtube.png" alt="">
-                                </a></span>
-                            </ul>
-                        </div>
-                    </ul>
-                    <ul>
-                        <h6 class="footer-head">MAILING LIST</h6>
-                        <span><a href="#">
-                            <li>SIGN UP</li>
-                        </a></span>
-                        <li class="discount">Sign up to receive 10% off your <br>first online ready-to-wear <br>order.</li>
-                    </ul>
-                </div>
-        </footer>
         <script src="product.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
